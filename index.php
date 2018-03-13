@@ -9,7 +9,7 @@ if (php_sapi_name() !== 'cli' && strpos($_SERVER['REQUEST_URI'], 'index.php') !=
     header("Location:http://" . str_replace('/index.php', '', $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']));
     exit;
 }
-define('ENVIRONMENT', 'production');
+define('ENVIRONMENT', 'development');
 /*
  * ---------------------------------------------------------------
  * ERROR REPORTING
