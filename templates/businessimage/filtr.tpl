@@ -1,4 +1,5 @@
 <div style="display:none">
+
 {if $_POST['num']=='none'}
 {$_SESSION["FILTR"]='none'}
 {/if}
