@@ -1,0 +1,16 @@
+.sbHolder{width:100%;display:inline-block;vertical-align:middle;position:relative;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;border:solid 1px #c8cbce;background-color:#f5f5f5;background:#FFFFFF;background:-webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#f1f1f1));background:-webkit-linear-gradient(#FFFFFF, #f1f1f1);background:-moz-linear-gradient(#FFFFFF, #f1f1f1);background:-ms-linear-gradient(#FFFFFF, #f1f1f1);background:-o-linear-gradient(#FFFFFF, #f1f1f1);background:linear-gradient(#FFFFFF, #f1f1f1);-pie-background:linear-gradient(#FFFFFF, #f1f1f1);cursor:pointer;min-width:50px;min-height:35px;}
+.sbHolder .sbSelector{display:block;color:#313131;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-size:15px;padding:9px 24px 9px 10px;-moz-user-select:-moz-none;-webkit-user-select:none;user-select:none;text-decoration:none;}
+.sbHolder .sbToggle{position:absolute;top:0px;right:0px;width:24px;height:32px;background:url(../images/select.png) no-repeat center 13px;cursor:pointer;}
+.sbHolder:hover .sbToggle{}
+.sbHolder.active .sbToggle{background:url(../images/select.png) no-repeat center -29px;}
+.sbHolder.active{background:#f7f7f7;}
+.sbHolder .sbOptions{top:34px !important;left:-1px;right:-1px;margin:0;padding:0;background-color:#f7f7f7;border:solid 1px #c8cbce;-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;overflow:auto !important;max-height:220px !important;border-top-color:#f7f7f7;position:absolute;z-index:1;}
+.sbHolder .sbOptions.topSelect{border-top-color:#c8cbce;border-bottom-color:#f7f7f7;-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;}
+.sbHolder .sbOptions{z-index:3;}
+.sbHolder .sbOptions li{text-decoration:none !important;}
+.sbHolder .sbOptions li a{color:inherit;text-decoration:none !important;width:100%;display:inline-block;}
+.sbHolder li{padding:7px 0 7px;}
+.sbHolder ul > li{color:#565656;font-size:13px;line-height:14px;text-indent:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin:0 2px;}
+.sbHolder li.selected{background:#d3d3d3;color:#2d2d2d;}
+.sbHolder li:hover{background:#e9ebf0;color:#2d2d2d;}
+.sbHolder.sbHolderDisabled .sbSelector{color:#909090;}

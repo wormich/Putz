@@ -1,0 +1,1 @@
+<ul id="open_menu" class="menu-catalog">{$wrapper}</ul>

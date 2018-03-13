@@ -1,0 +1,50 @@
+    .map-b,.super-karta{display:block !important}
+    body{font-family:Arial !important;font-size:12px}
+    p{line-height:2.0em !important}
+    #u-panel-holder,
+    .site-header .regions-b,.contact-top,
+    .search,
+    .menu-top,
+    .slider-b:before,
+    .slider-b.other:after,
+    .w-tabs-b,
+    .breadcrumbs,
+    .main-lt-side .lt-side,
+    .production.one .print,
+    .slider-b,
+    .gallery-item-b,
+    .w-list-documentation,
+    .info-b,
+    .directions,
+    .social-block,
+    .map-b .print,
+    .contacts-bottom,
+    .w-personal,.w-personal .main-title,.personal-b,.personal-b .item,.personal-b .about-person,.personal-b .post,
+    .hFooter,.footer{
+        display: none;
+    }
+
+    .contact-info,.contact-b .map-b{float:none !important;width:100% !important;}
+    .contact-info .address{margin-bottom:20px !important;}
+    .contact-info h1{margin-bottom:20px !important;}    
+    .phone,.address,.openingHours,.mail,.rkb,h1,a,.main-title{padding:0 !important;}
+    .contact-info .openingHours{display:block;}
+    .contact-info div[itemprop="department"]{float:right;width:50%;margin:-203px -45% 0 0;}
+    .contact-info div[itemprop="department"] .phone{margin-right:0;margin-top:45px;}
+    .contact-info div[itemprop="department"] .openingHours{display:none;} 
+    .contact-info h3{margin-bottom:35px;font-family:helios;font-size:28px;}
+
+    .w-personal{margin-bottom:15px;}
+    .personal-b .item {width:45% !important;display:inline-block !important;margin-bottom:30px;}
+    .personal-b .item:first-child{margin-right:4% !important}
+    .personal-b .post,.personal-b .fio,.personal-b .other{font-size:14px !important;}
+    .wrap-page{margin:0;}
+   
+    .slider-b .item{height:50px;}
+    .main-lt-side{padding-top:20px;padding-left:0;}
+    .site-header .address{top:20px;left:250px;}
+    .site-header .address .openingHours{display:block;}
+    .site-header .address .directions{display:block;padding:0;margin:0;}
+    .site-header .phone-b{float:right;text-align:right;margin-top:0px;}    
+    .contact-b .map-b{margin:40px 0 0 -300px;/*margin:40px 0 80px -300px;*/width:18cm !important;}
+    .contact-b .map-b #map_1{width:18cm !important;}

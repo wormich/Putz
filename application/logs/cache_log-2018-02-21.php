@@ -1,0 +1,32 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+2018-02-21 10:01:18 --> All cache files deleted
+2018-02-21 10:01:18 --> All cache files deleted
+2018-02-21 10:01:41 --> All cache files deleted
+2018-02-21 10:03:39 --> All cache files deleted
+2018-02-21 10:03:39 --> All cache files deleted
+2018-02-21 10:03:51 --> All cache files deleted
+2018-02-21 10:05:36 --> All cache files deleted
+2018-02-21 10:05:36 --> All cache files deleted
+2018-02-21 10:08:22 --> All cache files deleted
+2018-02-21 10:12:51 --> All cache files deleted
+2018-02-21 10:12:51 --> All cache files deleted
+2018-02-21 10:13:07 --> All cache files deleted
+2018-02-21 10:13:07 --> All cache files deleted
+2018-02-21 10:14:14 --> All cache files deleted
+2018-02-21 10:16:13 --> All cache files deleted
+2018-02-21 10:50:33 --> All cache files deleted
+2018-02-21 10:50:33 --> All cache files deleted
+2018-02-21 10:59:14 --> Clean :: Autoclean started
+2018-02-21 10:59:14 --> Clean :: Autoclean done
+2018-02-21 11:41:52 --> All cache files deleted
+2018-02-21 11:41:52 --> All cache files deleted
+2018-02-21 14:07:43 --> All cache files deleted
+2018-02-21 14:07:43 --> All cache files deleted
+2018-02-21 14:28:00 --> All cache files deleted
+2018-02-21 14:29:06 --> All cache files deleted
+2018-02-21 16:01:07 --> All cache files deleted
+2018-02-21 17:31:26 --> All cache files deleted
+2018-02-21 17:31:26 --> All cache files deleted
+2018-02-21 17:44:47 --> All cache files deleted
+2018-02-21 17:44:47 --> All cache files deleted
