@@ -158,6 +158,39 @@ position:absolute !important;right:15px !important;
     right: 227px;
     z-index: 2;
 }
+.w-history .nav-item .prev.disable {
+    background-position: left top;
+    cursor: default;
+}
+.w-history .nav-item > a.disable {
+    opacity: 1;
+}
+.w-history .nav-item .prev {
+    float: left;
+    background-position: left bottom;
+    left: 0;
+}
+.w-history .nav-item > a {
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    background: url(../images/nav-item.png) no-repeat left top;
+    position: relative;
+    display: inline-block;
+}
+.w-history .nav-item .next {
+    float: right;
+    background-position: right bottom;
+    right: 0;
+}
+.w-history .nav-item {
+    position: absolute;
+    width: 50px;
+    height: 0;
+    top: 100px;
+    right: 227px;
+    z-index: 2;
+}
 .menu-history {
     display: table;
     width: 100%;
@@ -2983,6 +3016,61 @@ form.js-add-webforms-cart.form.ajax_true .w-field.linenews label {
     width: 100%;
     margin-bottom: 10px;
 }
+    .menu-history li {
+        display: inline-block;
+        min-width: 33.3%;
+    }
+
+    .text-block ul {margin-left: 0;text-align: center;}
+
+    .menu-history .point {
+        margin:  auto;
+        text-align:  center;
+        right: 0;
+        display: block;
+        float: none;
+    }
+
+    .menu-history li a {
+        text-align: center;
+    }
+
+    .menu-history li a:before {
+        left: 50%;
+    }
+
+    .menu-history li:nth-child(3) a:before,.menu-history li:nth-child(6) a:before {
+        display: none;
+    }
+
+    .w-history .tabs {
+        width:  100%;
+        padding-left:  0;
+        display: none;
+        position:  relative;
+        overflow:  hidden;
+        padding:  0;
+        text-align: left;
+    }
+
+    .w-history .tabs.active {
+        display: block;
+    }
+
+    .w-history .history-events > ul > li {
+        text-align: left;
+    }
+
+    .w-history .history-events > ul > li strong {
+        display: block;
+    }
+    .w-history .photo-b {
+        width: 100%;
+        margin: 0;
+    }
+    .w-history .history-events .caption {
+        display: block;
+    }
     .menu-about-company li {
         float:  left;
         width: 33.3%;

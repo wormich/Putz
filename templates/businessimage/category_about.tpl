@@ -10,14 +10,15 @@
 <div class="text-block"><h1>{$page.title}</h1></div>
 <div class="text-block">
     <div class="main-side"><div class="w-history">
-            <div class="nav-item">
-                <a href="#" class="prev disable"></a><a href="#" class="next active"></a>
-            </div>
             <ul class="menu-history">
                 {foreach array_reverse(category_pages($category.id))as $i=>$item}
                     <li {if ++$i==1} class="active"{/if}><a href="#data-{echo $i}" data-toggle="tab"><div class="point border-r"><span class="border-r"></span></div>{$item.title}</a></li>
                     {/foreach}
             </ul>
+            <div class="add-tabs">
+                <div class="nav-item">
+                    <a href="#" class="prev disable"></a><a href="#" class="next active"></a>
+                </div>
             {foreach array_reverse(category_pages($category.id)) as $i=>$item}
                 {$item = $CI->load->module('cfcm')->connect_fields($item, 'page')}
                 <div id="data-{echo ++$i}" class="tabs{if $i==1} active{/if}">
@@ -33,8 +34,9 @@
                     </div>
                 </div>
                 {/foreach}
-
+            </div>
         </div>
+
     </div>
 </div>
 </div>
