@@ -1,4 +1,4 @@
-<div class="slider-b other">
+<div class="slider-b other test">
         <div class="item">
             <div class="slide-text">
                 <ins>Страница не найдена</ins>
