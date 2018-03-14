@@ -2871,7 +2871,9 @@ form.js-add-webforms-cart.form.ajax_true .w-field.linenews label {
         justify-content: center;
         padding-left: 40px;
     }
-
+    .menu-about-company {
+        margin-bottom: 15px;
+    }
     .menu-about-company p {
         width: 50%;
         float: left;
