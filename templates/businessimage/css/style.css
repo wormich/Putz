@@ -181,6 +181,9 @@ position:absolute !important;right:15px !important;
 .menu-history li.active a:before {
     background-color: #f0d200;
 }
+.menu-history li:last-child a:before {
+    display: none;
+}
 .menu-history li a:before {
     content: "";
     position: absolute;
