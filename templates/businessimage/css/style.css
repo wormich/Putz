@@ -3011,6 +3011,13 @@ input.send.btn {
         top: 25px;
         right: 20px;
     }
+    .w-history .photo-b img {
+        width: 80%;
+        margin: auto;
+        float: none;
+        display: block;
+        margin-bottom: 20px;
+    }
 .one_tv img {
     width: 70%;
     margin: auto;
