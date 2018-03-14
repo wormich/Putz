@@ -156,13 +156,29 @@
 
 
             <div class="col-xs-12 col-md-5">
-
-
+            	<!-- AddThis Button BEGIN -->
+              	<div class="social-block addthis_toolbox">
+               	    <span>Поделиться:</span>
+                    <a class="addthis_button_google_plusone_share gp at300b" href="http://www.addthis.com/bookmark.php?v=300&amp;winname=addthis&amp;pub=ra-5295e43f48b67026&amp;source=tbx-300&amp;lng=en-us&amp;s=google_plusone_share&amp;url=http%3A%2F%2Fwww.putzmeister.ru%2Fcontacts%2F&amp;title=%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B%20%7C%20Putzmeister%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20-%20%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82&amp;ate=AT-ra-5295e43f48b67026/-/-/54c9e3dd725dc670/2&amp;frommenu=1&amp;uid=54c9e3ddc61105da&amp;ct=1&amp;pre=http%3A%2F%2Fwww.putzmeister.ru%2F&amp;tt=0&amp;captcha_provider=nucaptcha" target="_blank" title="Google+">
+                  	<span></span>
+	            </a>
+        	    <a class="addthis_button_facebook fb at300b" title="Facebook" href="#">
+                	<span></span>
+	            </a>
+        	    <a class="addthis_button_twitter tw at300b" title="Tweet" href="#">
+                	<span></span>
+	            </a>
+        	    <a class="addthis_button_vk vk at300b" target="_blank" title="VKontakte" href="#">
+                	<span></span>
+	            </a>
+        	    <div class="clearfix"></div>
+	        </div>
+                {literal}<script>var addthis_config = {"data_track_addressbar":false};</script>{/literal}
+                <!-- AddThis Button END -->                                                    
+                <div class="clearfix"></div>
                 <div class="copyright">
                     © 2003-{date('Y')} Putzmeister Concrete Pumps GmbH
-                    <span>бетононасосы, автобетоносмесители, штукатурные станции, бетонные заводы и другая
-                                    бетонная техника Путцмайстер в Москве
-                                </span>
+                    <span>бетононасосы, автобетоносмесители, штукатурные станции, бетонные заводы и другая бетонная техника Путцмайстер в Москве</span>                                
                 </div>
                 <ul class="list-border">
                     <li><a href="/sitemap/" style="color: #676767;">Карта сайта</a></li>
@@ -196,6 +212,7 @@
 <script src="{$THEME}dist/jquery.formstyler.js"></script>
 <script src="{$THEME}js/selectbox.js"></script>
 <script src="{$THEME}js/script.js"></script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5295e43f48b67026"></script>
 {literal}
 <script>
   window.onload = function(){

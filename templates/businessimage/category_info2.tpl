@@ -9,26 +9,18 @@
       <h1>{$category.field_h1}</h1>
     </div>
   {$categories = get_sub_categories($category.id)}
-  {if count($pages) > 0}
-   <div class="top-news">
-    <ul class="row">
+  {if count($pages) > 0}    
+    <ul class="row list-article n">
     {foreach $pages as $page}
       <li class="col-xs-12">
-        <a  href="{site_url($page.full_url)}">
-      
-        
+        <a href="{site_url($page.full_url)}">
             <span class="n2">{$page.title}</span>
-         
         </a>
       </li>
-    {/foreach}
-    
-    {if $category.id==172}
-    
-    {$page=array_merge($pages[0],array())}
-    
-    
-          <li class="col-xs-12 col-sm-6 col-md-3">
+    {/foreach}   
+    {if $category.id==172}    
+    {$page=array_merge($pages[0],array())}   
+      <li class="col-xs-12 col-sm-6 col-md-3">
         <a class="item" href="">
           <div class="img">
             <img src="{$page.field_image}" alt="Химическая и нефтехимическая промышленность" />
@@ -38,7 +30,7 @@
           </div>
         </a>
       </li>
-            <li class="col-xs-12 col-sm-6 col-md-3">
+      <li class="col-xs-12 col-sm-6 col-md-3">
         <a class="item" href="">
           <div class="img">
             <img src="{$page.field_image}" alt="Лакокрасочная промышленность" />
@@ -50,7 +42,7 @@
       </li>
     
     {/if}
-    </ul>    </div>
+    </ul>
   {/if}
     <div class="text-block">
       {$category.short_desc}
