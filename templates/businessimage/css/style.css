@@ -183,11 +183,14 @@ position:absolute !important;right:15px !important;
     background-position: right bottom;
     right: 0;
 }
+.add-tabs {
+    position: relative;
+}
 .w-history .nav-item {
     position: absolute;
     width: 50px;
     height: 0;
-    top: 100px;
+    top: 30px;
     right: 227px;
     z-index: 2;
 }
@@ -3004,7 +3007,10 @@ input.send.btn {
   .one_tv {
     width: 100%;
 }
-
+    .w-history .nav-item {
+        top: 30px;
+        right: 20px;
+    }
 .one_tv img {
     width: 70%;
     margin: auto;
