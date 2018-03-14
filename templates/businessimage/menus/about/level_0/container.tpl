@@ -1,1 +1,1 @@
-<ul id="open_menu" class="menu-catalog menu-about-company">{$wrapper}</ul>
+<ul id="open_menu" class="menu-catalog">{$wrapper}</ul>
