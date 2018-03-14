@@ -1179,6 +1179,9 @@ span.text {
 .social-block .vk.active {
     background-position: -105px -67px;
 }
+.social-block.addthis_toolbox a.at300b, .social-block.addthis_toolbox a.at300m {
+    width: 28px;
+}
 
 .r-fl {
     float: right;
