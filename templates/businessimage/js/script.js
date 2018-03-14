@@ -555,6 +555,7 @@ $(function() {
         return false;
     });
 });
+//Пагинация в истории компании
 $('.nav-item .next').on('click',function () {
     if ($(this).hasClass('active')!=false) {
         var a = $('.menu-history li.active a').attr('href');
@@ -578,3 +579,41 @@ $('.nav-item .next').on('click',function () {
     };
     return false;
 });
+$('.nav-item .prev').on('click',function () {
+    if ($(this).hasClass('active')!=false) {
+        var a = $('.menu-history li.active a').attr('href');
+        if (a == '#data-2') {
+            $(this).addClass('disable');
+            $(this).removeClass('active');
+            $('.menu-history li.active').prev('li').addClass('active');
+            $('.menu-history li.active').last().removeClass('active');
+            $('.add-tabs .tabs.active').prev('.tabs').addClass('active');
+            $('.add-tabs .tabs.active').last().removeClass('active');
+            $('.nav-item .next').removeClass('disable');
+            $('.nav-item .next').addClass('active');
+        } else {
+            $('.menu-history li.active').prev('li').addClass('active');
+            $('.menu-history li.active').last().removeClass('active');
+            $('.add-tabs .tabs.active').prev('.tabs').addClass('active');
+            $('.add-tabs .tabs.active').last().removeClass('active');
+            $('.nav-item .next').removeClass('disable');
+            $('.nav-item .next').addClass('active');
+        }
+    };
+    return false;
+});
+$('.menu-history li a').click(function () {
+    var a = $(this).attr('href');
+    if (a=='#data-1'){
+        $('.nav-item .prev').addClass('disable');
+        $('.nav-item .prev').removeClass('active');
+        $('.nav-item .next').removeClass('disable');
+        $('.nav-item .next').addClass('active');
+    } else if (a=='#data-' + $('.menu-history li').length){
+        $('.nav-item .next').addClass('disable');
+        $('.nav-item .next').removeClass('active');
+        $('.nav-item .prev').removeClass('disable');
+        $('.nav-item .prev').addClass('active');
+    };
+});
+/*END*/
