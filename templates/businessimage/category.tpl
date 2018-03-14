@@ -1,5 +1,5 @@
 {$category = $CI->load->module('cfcm')->connect_fields($category, 'category')}
-<div class="row">
+<div class="row main-lt-side">
   {include_tpl('widgets/sub_categories')}
   <div class="col-xs-12 col-sm-12 col-md-9">
     <div class="text-block">

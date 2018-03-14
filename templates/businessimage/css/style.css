@@ -824,6 +824,10 @@ span.text {
     margin-bottom: 20px;
     padding-left: 12px;
 }
+.list-article.n > li {
+    background: none;
+    padding: 0;
+}
 .list-article > li a {
     color: #4182b4;
     margin-right: 5px;
@@ -1299,6 +1303,9 @@ span.text {
 .social-block .vk:hover,
 .social-block .vk.active {
     background-position: -105px -67px;
+}
+.social-block.addthis_toolbox a.at300b, .social-block.addthis_toolbox a.at300m {
+    width: 28px;
 }
 
 .r-fl {

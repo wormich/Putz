@@ -7,7 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="keywords" content="{$site_keywords}" />
 <meta name="description" content="{$site_description}" />
-
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 <link rel="stylesheet" href="{$THEME}css/selectbox.css" />
@@ -18,11 +17,8 @@
 <link rel="shortcut icon" href="{$THEME}images/favicon.ico" type="image/x-icon" />
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="http://api-maps.yandex.ru/2.0/?load=package.full&amp;mode=release&amp;lang=ru-RU"></script>
-<script type="text/javascript" src="{site_url('application/modules/basket/templates/assets')}/cart.js"></script>
-
+<script src="{site_url('application/modules/basket/templates/assets')}/cart.js"></script>
 <script src="{$THEME}js/jquery.priceformat.min.js"></script>
-
-
 </head>
 <body>
 {if $CI->core->core_data['data_type']=='page'}
@@ -211,11 +207,8 @@ href="#" class="close">x</a>
 
 </div>
 <div class="col-md-3 col-xs-6 phones">
-
-<p class="lmar"><a href="callto:8 (800) 707-19-58"><span>8 (800)</span> 707-19-58</a></p>
-<p><a href="callto:8 (800) 707-19-58"><span>+7 (495)</span> 775-22-37</a></p>
-
-
+  <p class="lmar"><a href="tel:+78007071958"><span>8 (800)</span> 707-19-58</a></p>
+  <p><a href="tel:+74957752237"><span>+7 (495)</span> 775-22-37</a></p>
 </div>
 
 <div class="visible-xs col-xs-6 ass">

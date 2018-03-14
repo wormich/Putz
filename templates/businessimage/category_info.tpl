@@ -22,14 +22,10 @@
           </div>
         </a>
       </li>
-    {/foreach}
-    
-    {if $category.id==172}
-    
-    {$page=array_merge($pages[0],array())}
-    
-    
-          <li class="col-xs-12 col-sm-6 col-md-3">
+    {/foreach}    
+    {if $category.id==172}    
+      {$page=array_merge($pages[0],array())}
+      <li class="col-xs-12 col-sm-6 col-md-3">
         <a class="item" href="">
           <div class="img">
             <img src="{$page.field_image}" alt="Химическая и нефтехимическая промышленность" />
@@ -39,7 +35,7 @@
           </div>
         </a>
       </li>
-            <li class="col-xs-12 col-sm-6 col-md-3">
+      <li class="col-xs-12 col-sm-6 col-md-3">
         <a class="item" href="">
           <div class="img">
             <img src="{$page.field_image}" alt="Лакокрасочная промышленность" />
@@ -48,8 +44,7 @@
             <span class="n2"> Лакокрасочная промышленность</span>
           </div>
         </a>
-      </li>
-    
+      </li>    
     {/if}
     </ul>
   {/if}
