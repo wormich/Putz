@@ -1,6 +1,6 @@
 {$cats = get_sub_categories(5)}
 {if count($cats) > 0}
-<div class="col-md-3 hidden-xs hidden-sm">
+<div class="col-md-3 hidden-xs hidden-sm lt-side">
   <ul id="open_menu" class="menu-catalog">
   {foreach $cats as $cat}
     <li{if $category.id == $cat.id} class="active"{/if}{if $category.parent_id == $cat.id} class="active"{/if}>

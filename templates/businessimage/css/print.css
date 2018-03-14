@@ -2,28 +2,25 @@
     body{font-family:Arial !important;font-size:12px}
     p{line-height:2.0em !important}
     #u-panel-holder,
-    .site-header .regions-b,.contact-top,
+    .header .links,.contact-top,
     .search,
-    .menu-top,
+    .tmenu,
+    .slider-b,
     .slider-b:before,
     .slider-b.other:after,
     .w-tabs-b,
     .breadcrumbs,
     .main-lt-side .lt-side,
-    .production.one .print,
-    .slider-b,
+    .print,
     .gallery-item-b,
-    .w-list-documentation,
-    .info-b,
+    .bot-menu,
+    .cont-btm,
     .directions,
     .social-block,
-    .map-b .print,
-    .contacts-bottom,
     .w-personal,.w-personal .main-title,.personal-b,.personal-b .item,.personal-b .about-person,.personal-b .post,
-    .hFooter,.footer{
+    .footer{
         display: none;
     }
-
     .contact-info,.contact-b .map-b{float:none !important;width:100% !important;}
     .contact-info .address{margin-bottom:20px !important;}
     .contact-info h1{margin-bottom:20px !important;}    
@@ -42,9 +39,9 @@
    
     .slider-b .item{height:50px;}
     .main-lt-side{padding-top:20px;padding-left:0;}
-    .site-header .address{top:20px;left:250px;}
-    .site-header .address .openingHours{display:block;}
-    .site-header .address .directions{display:block;padding:0;margin:0;}
-    .site-header .phone-b{float:right;text-align:right;margin-top:0px;}    
+    .header .address{top:20px;left:250px;}
+    .header .address .openingHours{display:block;}
+    .header .address .directions{display:block;padding:0;margin:0;}
+    .header .phones{float:right;text-align:right;margin-top:0px;}    
     .contact-b .map-b{margin:40px 0 0 -300px;/*margin:40px 0 80px -300px;*/width:18cm !important;}
     .contact-b .map-b #map_1{width:18cm !important;}
