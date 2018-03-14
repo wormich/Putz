@@ -230,6 +230,9 @@ position:absolute !important;right:15px !important;
     top: 18px;
     background-color: #ececed;
 }
+.w-history .nav-item .next.disable {
+    background-position: right top;
+}
 .menu-history li.active a .point {
     border-color: #f0d200;
 }

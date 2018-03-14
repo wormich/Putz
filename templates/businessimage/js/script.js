@@ -555,3 +555,26 @@ $(function() {
         return false;
     });
 });
+$('.nav-item .next').on('click',function () {
+    if ($(this).hasClass('active')!=false) {
+        var a = $('.menu-history li.active a').attr('href');
+        if ('#data-' + ((parseFloat($('.menu-history li').length)) - parseFloat(1)) == a) {
+            $(this).addClass('disable');
+            $(this).removeClass('active');
+            $('.menu-history li.active').next('li').addClass('active');
+            $('.menu-history li.active').first().removeClass('active');
+            $('.add-tabs .tabs.active').next('.tabs').addClass('active');
+            $('.add-tabs .tabs.active').first().removeClass('active');
+            $('.nav-item .prev').removeClass('disable');
+            $('.nav-item .prev').addClass('active');
+        } else {
+            $('.menu-history li.active').next('li').addClass('active');
+            $('.menu-history li.active').first().removeClass('active');
+            $('.add-tabs .tabs.active').next('.tabs').addClass('active');
+            $('.add-tabs .tabs.active').first().removeClass('active');
+            $('.nav-item .prev').removeClass('disable');
+            $('.nav-item .prev').addClass('active');
+        }
+    };
+    return false;
+});
