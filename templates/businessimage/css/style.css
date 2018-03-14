@@ -2891,6 +2891,118 @@ form.js-add-webforms-cart.form.ajax_true .w-field.linenews label {
         -ms-flex-pack: center;
         justify-content: center;
     }
+    /* About company */
+    .w-history {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .w-history .nav-item {
+        position: absolute;
+        width: 50px;
+        height: 0;
+        top: 100px;
+        right: 227px;
+        z-index: 2;
+    }
+    .menu-history {
+        display: table;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .menu-history li {
+        display: table-cell;
+        position: relative;
+    }
+    .menu-history li.active a {
+        color: #3d3d3d;
+    }
+    .menu-history li a {
+        display: block;
+        padding: 40px 0 0;
+        color: #3d3d3d;
+        text-decoration: none;
+        font-size: 17px;
+        position: relative;
+    }
+    .menu-history li.active a:before {
+        background-color: #f0d200;
+    }
+    .menu-history li.active a .point {
+        border-color: #f0d200;
+    }
+    .menu-history .point {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 4px solid #ececed;
+        background-color: #ffffff;
+        border-radius: 100%;
+    }
+    .menu-history li.active a .point span {
+        background-color: #f0d200;
+    }
+    .menu-history .point > span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 4px solid #ffffff;
+        background-color: #ececed;
+        border-radius: 100%;
+    }
+    .w-history .tabs {
+        padding-right: 216px;
+    }
+    .w-history .history-events {
+        position: relative;
+        background: #ffffff;
+        border: 1px solid #ececed;
+        margin-bottom: 20px;
+        float: left;
+        width: 100%;
+    }
+    .w-history .history-events .caption {
+        font-size: 28px;
+        color: #454545;
+        padding: 10px;
+    }
+    .w-history .history-events > ul {
+        color: #74747c;
+        font-size: 17px;
+    }
+    .w-history .history-events > ul > li {
+        position: relative;
+        padding: 15px;
+        background: url(../images/list-style.png) no-repeat 4px 22px;
+    }
+    .w-history .history-events > ul > li:after {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 15px;
+        right: 15px;
+        top: 0;
+        height: 1px;
+        background-color: #ececed;
+    }
+    .w-history .photo-b {
+        float: right;
+        margin-right: -216px;
+        width: 200px;
+    }
+    .w-history .photo-b img {
+        display: inline-block;
+        margin-bottom: 15px;
+        padding: 5px;
+        border: 1px solid #ececed;
+        width: 100%;
+        vertical-align: top;
+    }
+    /* END*/
 .cart-info .r-fl {
     display: block;
     width: 100%;
