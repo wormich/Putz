@@ -3008,7 +3008,7 @@ input.send.btn {
     width: 100%;
 }
     .w-history .nav-item {
-        top: 30px;
+        top: 25px;
         right: 20px;
     }
 .one_tv img {
@@ -3076,6 +3076,7 @@ form.js-add-webforms-cart.form.ajax_true .w-field.linenews label {
     }
     .w-history .history-events .caption {
         display: block;
+        margin-top: 10px;
     }
     .menu-about-company li {
         float:  left;
