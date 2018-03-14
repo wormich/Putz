@@ -53,13 +53,13 @@
     </div>
   </div>
   <div class="hidden-xs hidden-sm col-md-7 map-b">
-    <div class="print"><noindex><a onclick="return window.print();">Распечатать</a></noindex></div>
+    <div class="print hidden-print"><noindex><a onclick="return window.print();">Распечатать</a></noindex></div>
     <div id="map_1" class="map"></div>
     <script src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=igTVJJT8kcWQIJCHy98c1sgEOQo-bcz1&id=map_1&height=344"></script>
   </div>
 </div>
-<div class="hr m hidden-xs hidden-sm"></div>
-<div class="row">
+<div class="hr m hidden-xs hidden-sm hidden-print"></div>
+<div class="row hidden-print">
   <div class="col-xs-12 w-personal" itemprop="department" itemscope itemtype="http://schema.org/Organization">
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
       <meta itemprop="addressLocality" content="г. Москва" />

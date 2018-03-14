@@ -7,14 +7,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="keywords" content="{$site_keywords}" />
 <meta name="description" content="{$site_description}" />
+<link rel="shortcut icon" href="{$THEME}images/favicon.ico" type="image/x-icon" />
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 <link rel="stylesheet" href="{$THEME}css/selectbox.css" />
 <link rel="stylesheet" href="{$THEME}css/style.css" />
 <link rel="stylesheet" href="{$THEME}css/print.css" media="print" />
-<link href="{$THEME}dist/jquery.formstyler.css" rel="stylesheet" />
-<link href="{$THEME}dist/jquery.formstyler.theme.css" rel="stylesheet" />
-<link rel="shortcut icon" href="{$THEME}images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$THEME}dist/jquery.formstyler.css" />
+<link rel="stylesheet" href="{$THEME}dist/jquery.formstyler.theme.css" />
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="http://api-maps.yandex.ru/2.0/?load=package.full&amp;mode=release&amp;lang=ru-RU"></script>
 <script src="{site_url('application/modules/basket/templates/assets')}/cart.js"></script>
@@ -25,10 +26,10 @@
 
 
 {/if}
-<div class="back-f">
+<div class="back-f hidden-print">
 <span class="left_text">Легкость - ваша выгода!</span>
 </div>
-<div class="right_text">
+<div class="right_text hidden-print">
 <div class="pdl"></div>
 <span>Автобетононасос<br>
 Putzmeister BSF36-4.16H</span><a href="/catalog/avtobetononasosy/m-36-4-v/" class="btn_r">Подробнее &gt;</a>
@@ -67,7 +68,7 @@ Putzmeister BSF36-4.16H</span><a href="/catalog/avtobetononasosy/m-36-4-v/" clas
 </div></div>
 <div class="container mainbody">
 <div class="row header">
-<div class="col-md-2 col-xs-12 col-md-offset-0 logo">
+<div class="col-md-2 col-xs-12 logo">
 {$main=0}
 {if $_SERVER['REQUEST_URI']=='/'||$_SERVER['REQUEST_URI']==''}
 {$main=1}
@@ -81,7 +82,7 @@ Putzmeister BSF36-4.16H</span><a href="/catalog/avtobetononasosy/m-36-4-v/" clas
 {/if}
 </div>
 
-<div class="col-md-2 col-xs-6 links">
+<div class="col-md-2 col-xs-6 hidden-print links">
 <a href="#" class="link"><img src="{$THEME}images/ru_map.png" alt=""><span>World links</span></a>
 <ul class="list-regions drop-down" style="display: none;">
 <li><a href="http://www.putzmeister.com" target="_blank" rel="nofollow">Putzmeister Holding</a></li>
@@ -108,14 +109,14 @@ Putzmeister BSF36-4.16H</span><a href="/catalog/avtobetononasosy/m-36-4-v/" clas
 
 </div>
 <div class="col-md-5 col-xs-6">
-<div class="tmenu">
+<div class="tmenu hidden-print">
 {if $page_type = $CI->core->core_data['data_type']!='main'}
 {$no = ' rel="noindex"'}
 {/if}
 {if $page_type = $CI->core->core_data['data_type']!='main'}
 {echo '<noindex>'}
 {/if}
-<ul class="menu-top">
+<ul class="menu-top hidden-print">
 <li class="w-order">
 <a{$no} class="consult-but" style="cursor:pointer">Консультация</a>
 
@@ -207,8 +208,11 @@ href="#" class="close">x</a>
 
 </div>
 <div class="col-md-3 col-xs-6 phones">
-  <p class="lmar"><a href="tel:+78007071958"><span>8 (800)</span> 707-19-58</a></p>
-  <p><a href="tel:+74957752237"><span>+7 (495)</span> 775-22-37</a></p>
+
+<p class="lmar"><a href="tel:+78007071958"><span>8 (800)</span> 707-19-58</a></p>
+<p><a href="tel:+74957752237"><span>+7 (495)</span> 775-22-37</a></p>
+
+
 </div>
 
 <div class="visible-xs col-xs-6 ass">
@@ -231,7 +235,7 @@ href="#" class="close">x</a>
     {$zag2=$page.field_zag2}
   {/if}
   <!--Поиск-->
-<div class="input-group search">
+<div class="input-group search hidden-print">
 	<form class="navbar-form" role="search" action="{base_url('search')}">
 					<div class="input-group">
 						<input type="text" class="form-control sinp" name="text" placeholder="Найти...">
@@ -246,7 +250,7 @@ href="#" class="close">x</a>
 				</form>
 </div>
   <!--Поиск-->
-<div class="slider-b other">
+<div class="slider-b other hidden-print">
   <div class="item">
     <div class="slide-text">
       <ins>{$zag1}</ins>
