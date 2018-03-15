@@ -1,13 +1,13 @@
-<div class="row main-lt-side">
+<div class="row">
   {include_tpl('widgets/sub_categories')}
   <div class="col-xs-12 col-sm-12 col-md-9">
     <div class="text-block">
       <h1>{$page.title}</h1>
-      <div class="print">
+      <div class="print hidden-print">
         <noindex><a onclick="return window.print();">Распечатать</a></noindex>
       </div>
     </div>
-    <div class="clearfix gallery-item-b">
+    <div class="clearfix gallery-item-b hidden-print">
     {$photos = explode(',',$page.field_gallery)}
     {$videos = explode(',',$page.field_you)}
     {if $page.field_gallery && $page.field_you}
@@ -238,7 +238,7 @@ href="#" class="close">x</a>
 </div>
 {/foreach}
     </div>
-    <div class="but_more more_ps realated-ps">
+    <div class="but_more more_ps realated-ps hidden-print">
       <a>Загрузить еще</a>
     </div>  
      
