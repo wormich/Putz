@@ -70,7 +70,7 @@ body {
     background: url(../images/fons.jpg) no-repeat center center;
     background-size: 100% auto;
     background-attachment: fixed;
-    font: 15px helios, Arial, Verdana, Helvetica, sans-serif;
+    font: 15px Arial, Verdana, Helvetica, sans-serif;
 }
 hr {
     display: block;
