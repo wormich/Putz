@@ -171,7 +171,150 @@ position: absolute;
     top: 0;
     float: right;
 }
+.catalog-products-item_big {
+    min-height: 610px;
+    margin-bottom: 35px;
+    border: 1px solid #ededed;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.catalog-products-item_small {
+    height: 260px;
+    border: 1px solid #ededed;
+    margin-bottom: 15px;
+    background: url(../images/catalog-product-title-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left center;
+    border-left: 7px solid #ececec ;
+}
+.catalog-products-item_small .catalog-products-item-image-block {
+    width: 150px;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 16px;
+    display: table-cell;
+}
+.catalog-products-item_small .catalog-products-item-image-block a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.catalog-products-item_small .catalog-products-item-image {
+    max-width: 120px;
+}
+.catalog-products-item_small .catalog-products-item-stamp {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.catalog-products-item_small .catalog-products-item-info {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: table-cell;
+}
+.catalog-products-item_small .catalog-products-item-info-line {
+    padding: 9px 0;
+    line-height: 13px;
+}
+.catalog-products-item_small .catalog-products-item-info-line {
+    padding: 10px 0;
+    line-height: 24px;
+    font-size: 14px;
+}
+.catalog-products-item_small .catalog-products-item-info-line {
+    padding: 9px 0;
+    line-height: 13px;
+}
+.catalog-products-item_small .catalog-products-item-info-line, .catalog-products-item_small p {
+    padding: 10px 0px;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 0;
+    border-bottom: 1px solid #ededed;
+}
 
+.catalog-products-item_small .catalog-products-item-nums {
+    text-align: center;
+    margin: 24px 0 12px;
+    min-height: 43px;
+    line-height: 43px;
+}
+.catalog-products-item_big .catalog-products-item-image-block {
+    width: 100%;
+    height: 232px;
+    position: relative;
+    border-bottom: 3px solid #efd303;
+    overflow: hidden;
+}
+.catalog-products-item_big .catalog-products-item-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.catalog-products-item_big .catalog-products-item-title {
+    height: 65px;
+    width: 100%;
+    background: url(../images/catalog-product-title-bg.png) bottom center no-repeat;
+    background-color: #ececec;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    color: #6c6b73;
+    line-height: 1;
+    margin-bottom: 10px;
+    background-size: 100%;
+}
+.catalog-products-item_big .catalog-products-item-title-link {
+    color: #6c6b73;
+    text-decoration: none;
+}
+.catalog-products-item-nums {
+    text-align: center;
+    margin: 24px 0 12px;
+    min-height: 43px;
+    line-height: 43px;
+}
+.catalog-products-item_big .catalog-products-item-info {
+    text-align: center;
+    margin: 0 24px;
+}
+.catalog-products-item_big .catalog-products-item-info {
+    color: #8f8e96;
+}
+.catalog-products-item_big .catalog-products-item-info-line {
+    border-bottom: 1px solid #ececec;
+    padding: 10px 0;
+    line-height: 24px;
+    font-size: 14px;
+}
+.catalog-products-item_big .catalog-products-item-info-line:last-child {
+    border-bottom: 0;
+}
+.catalog-products-item_big .catalog-products-item-info p {
+    padding: 10px 0;
+    margin: 0;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+.catalog-products-item_big .catalog-products-item-info p:last-child {
+    border-bottom: 0;
+}
 .w-history .nav-item .prev.disable {
     background-position: left top;
     cursor: default;
@@ -384,10 +527,13 @@ margin:0 !important;
 width:100%;
     }
 
-.phones a {           
-    color: #3a3a3a;   
+.phones a {
+    color: #3a3a3a;
     line-height: 1.7;
     text-decoration: none;
+    font: 21px helios, Arial, Verdana, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    display: block;
 }
 
 .phones span {        

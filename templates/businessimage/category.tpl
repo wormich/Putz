@@ -32,9 +32,6 @@
     <div class="row catalog-products">
       {foreach $products as $it}
         {$it = $CI->load->module('cfcm')->connect_fields($it, 'page')}
-          {if $it.field_rs}
-
-              {else:}
       <div class="col-xs-12 col-sm-6 col-md-3 list-item-product">
         <a class="item" href="{site_url($it.full_url)}">
           <div class="img">
@@ -83,7 +80,6 @@
           {/if}
         </div>
       </div>
-          {/if}
       {/foreach}
     </div>
     {/if}
@@ -93,6 +89,31 @@
     <div class="row catalog-products">
     {foreach $pages as $it}
     {$it = $CI->load->module('cfcm')->connect_fields($it, 'page')}
+{if $it.field_rs}
+    <div class="col-md-6 col-xs-12 big-i">
+      <div class="catalog-products-item_big">
+        <div class="catalog-products-item-image-block"><a href="{site_url($it.full_url)}"><img src="{$it.field_image}" alt="{$it.title}" class="catalog-products-item-image"></a></div>
+        <div class="catalog-products-item-title"><a href="{site_url($it.full_url)}" class="catalog-products-item-title-link"><span>{$it.title}</span></a></div>
+        <div class="catalog-products-item-nums"><div class="w-order"></div></div>
+        <div class="catalog-products-item-info">
+            {$it.prev_text}
+        </div>
+      </div>
+    </div>
+    {elseif $it.field_rssmall}
+    <div class="col-xs-12 col-md-6">
+  <div class="catalog-products-item_small">
+    <div class="catalog-products-item-image-block"><a href="{site_url($it.full_url)}"><img src="{$it.field_image}" alt="{$it.title}" class="catalog-products-item-image"><span class="catalog-products-item-stamp"></span></a></div>
+    <div class="catalog-products-item-info">
+      <div class="catalog-products-item-info-line title"><a href="{site_url($it.full_url)}" class="catalog-products-item-title-link">{$it.title}</a></div>
+        {str_replace('<p>&nbsp;</p>','',$it.prev_text)}
+      <div class="catalog-products-item-nums">
+        <div class="w-order"></div>
+      </div>
+    </div>
+  </div>
+    </div>
+{else:}
       <div class="col-xs-12 col-sm-6 col-md-3 list-item-product">
         <a class="item" href="{site_url($it.full_url)}">
           <div class="img">
@@ -141,6 +162,7 @@
           {/if}
         </div>
       </div>
+        {/if}
     {/foreach}
     </div>
     <!--<div class="but_more more_ps">
