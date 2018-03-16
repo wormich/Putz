@@ -32,6 +32,9 @@
     <div class="row catalog-products">
       {foreach $products as $it}
         {$it = $CI->load->module('cfcm')->connect_fields($it, 'page')}
+          {if $it.field_rs}
+
+              {else:}
       <div class="col-xs-12 col-sm-6 col-md-3 list-item-product">
         <a class="item" href="{site_url($it.full_url)}">
           <div class="img">
@@ -80,6 +83,7 @@
           {/if}
         </div>
       </div>
+          {/if}
       {/foreach}
     </div>
     {/if}
