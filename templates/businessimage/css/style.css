@@ -159,11 +159,20 @@ position:absolute !important;right:15px !important;
     z-index: 2;
 }
 .labels {
-    position: absolute;
-    top: 11px;
-    left: 0;
-    width: 100%;
+position: absolute;
+top: 11px;
+left: 0;
+width: 100%;
+position: absolute;
 }
+
+.labels .label {
+    line-height:  1;
+    display: block !important;
+    top: 0;
+    float: right;
+}
+
 .w-history .nav-item .prev.disable {
     background-position: left top;
     cursor: default;
