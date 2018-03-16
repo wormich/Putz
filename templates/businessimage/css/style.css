@@ -158,6 +158,12 @@ position:absolute !important;right:15px !important;
     right: 227px;
     z-index: 2;
 }
+.labels {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: 100%;
+}
 .w-history .nav-item .prev.disable {
     background-position: left top;
     cursor: default;
